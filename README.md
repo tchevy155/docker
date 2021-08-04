@@ -129,7 +129,7 @@ docker image pull alpine
 docker system df
 ````
 
-- Сценарий "Как запустить образ"
+- Сценарий "Как запустить контейнер из образа"
 ```shell
 docker container ls [--all]
 docker container run --name demo -it alpine
@@ -137,7 +137,7 @@ docker container run --name demo -it alpine
 /# exit 
 ```
 
-- Сценарий "Как выгрузить образ"
+- Сценарий "Как выгрузить контейнер"
 ```shell
 docker container ls [--all]
 docker container rm [--force] demo
